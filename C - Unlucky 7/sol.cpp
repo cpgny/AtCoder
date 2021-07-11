@@ -35,7 +35,7 @@ int sol() {
     int ans = 0;
 
     std::vector<int> res;
-    std::vector<int> total;
+    std::vector<int> octal;
     std::vector<int> decimal;
     std::vector<int> sequence;
     std::vector<std::string> stream;
@@ -44,19 +44,19 @@ int sol() {
     FOR(k, 1, N) res.pb(k);
 
     for(unsigned int k = 0; k < res.size(); ++k) {
-        int octal = 0;
+        int o = 0;
         int i = 1;
         while(res[k] != 0) {
             int sum = res[k] % 8;
             res[k] /= 8;
-            octal += sum * i;
+            o += sum * i;
             i *= 10;
         }
-        total.pb(octal);
+        octal.pb(o);
     }
 
-    for(unsigned int k = 0; k < total.size(); ++k) {
-        if(std::to_string(total[k]).find('7') != std::string::npos) {
+    for(unsigned int k = 0; k < octal.size(); ++k) {
+        if(std::to_string(octal[k]).find('7') != std::string::npos) {
             stream.pb(std::to_string(decimal[k]));
         }
     }
