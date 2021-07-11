@@ -37,7 +37,6 @@ int sol() {
     std::vector<int> res;
     std::vector<int> octal;
     std::vector<int> decimal;
-    std::vector<int> sequence;
     std::vector<std::string> stream;
  
     FOR(k, 1, N) decimal.pb(k);
