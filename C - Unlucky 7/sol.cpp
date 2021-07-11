@@ -39,9 +39,8 @@ int sol() {
     std::vector<int> decimal;
     std::vector<int> sequence;
     std::vector<std::string> stream;
-
+ 
     FOR(k, 1, N) decimal.pb(k);
-
     FOR(k, 1, N) res.pb(k);
 
     for(unsigned int k = 0; k < res.size(); ++k) {
