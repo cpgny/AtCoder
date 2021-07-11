@@ -1,4 +1,9 @@
-コンテスト
+C - Unlucky 7  / 
+実行時間制限: 2 sec / メモリ制限: 1024 MB
+
+配点 : 
+300
+ 点
 #include <iostream>
 #include <algorithm>
 #include <vector>
