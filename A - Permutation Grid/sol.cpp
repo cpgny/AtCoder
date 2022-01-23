@@ -23,15 +23,25 @@ using namespace std;
 #define rng ios::sync_with_stdio(false);cin.tie(nullptr);
 typedef pair<ll,ll>PLL;typedef pair<int,int>PII;typedef pair<double,double>PDD;
 inline ll read(){ll x=0,f=1;char ch=getchar();while(ch<'0'||ch>'9'){if(ch=='-')f=-1;ch=getchar();}while(ch>='0'&&ch<='9'){x=x*10+ch-'0';ch=getchar();}return x*f;}
+template <typename T> void print(T x){if(x<0)putchar('-'),x=-x;if(x<10) putchar(x+48);else print(x/10),putchar(x%10+48);}
+template <typename T> void print(T x,char t){print(x);putchar(t);}
+template<class T>bool cmin(T &a,const T &b){if(b<a){a=b;return 1;}return 0;}
 #define read read()
 const int mod=998244353;
 const int mx=2e5+5;
 const int inf=0x3f3f3f3f;
-template<class T>bool cmin(T &a,const T &b){if(b<a){a=b;return 1;}return 0;}
 ll gcd(ll a,ll b){return b?gcd(b,a%b):a;}
 ll lcm(ll a,ll b){return a/gcd(a,b)*b;}
-template <typename T> void print(T x){if(x<0)putchar('-'),x=-x;if(x<10) putchar(x+48);else print(x/10),putchar(x%10+48);}
-template <typename T> void print(T x,char t){print(x);putchar(t);}
+
+void sol() {
+  rng
+  return;
+}
+
+int main(){
+  sol();
+  return 0;
+}
 
 void sol() {
   rng
