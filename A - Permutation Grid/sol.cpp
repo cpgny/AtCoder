@@ -35,16 +35,6 @@ ll lcm(ll a,ll b){return a/gcd(a,b)*b;}
 
 void sol() {
   rng
-  return;
-}
-
-int main(){
-  sol();
-  return 0;
-}
-
-void sol() {
-  rng
   int n;
   n=read;
   vector<ll> R(n), C(n);
