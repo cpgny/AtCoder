@@ -33,9 +33,8 @@ string sol() {
   string s;
   cin >> s;
   string p = s;
-  string ans="";
   reverse(p.begin(), p.end());
-  if(s == p) ans="Yes";
+  if(s == p) cout<<"Yes";
   else{
   	vector<int> seq;
     vector<int> a_seq;
