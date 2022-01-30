@@ -28,7 +28,7 @@ const int inf=0x3f3f3f3f;
 ll gcd(ll a,ll b){return b?gcd(b,a%b):a;}
 ll lcm(ll a,ll b){return a/gcd(a,b)*b;}
 
-string sol() {
+void sol() {
   rng
   string s;
   cin >> s;
