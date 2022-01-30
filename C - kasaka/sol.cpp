@@ -36,7 +36,7 @@ void sol() {
   reverse(p.begin(), p.end());
   if(s == p) cout<<"Yes";
   else{
-  	vector<int> seq;
+    vector<int> seq;
     vector<int> a_seq;
     for(int i = 0; i < s.length(); ++i) {
     	int c = 0;
