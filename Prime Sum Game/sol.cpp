@@ -1,3 +1,7 @@
+Time Limit: 2 sec / Memory Limit: 1024 MB
+
+配点 :
+400 点
 #include <iostream>
 #include <iomanip>
 #include <algorithm>
@@ -64,7 +68,7 @@ int64_t lcm(int64_t a,int64_t b) {
     return a / gcd(a, b) * b;
 }
 
-const int n = 305;
+const int n = 301;
 bool is[n];
     
 void sol() {
