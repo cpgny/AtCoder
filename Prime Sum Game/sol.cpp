@@ -80,7 +80,7 @@ void sol() {
           }
        }
     }
-    long long a, b, c, d;
+    int a, b, c, d;
     cin >> a >> b >> c >> d;
     for(int i = a; i <= b; ++i) {
        bool ok = true;
